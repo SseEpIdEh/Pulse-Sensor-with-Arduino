@@ -25,24 +25,24 @@ S--> connect to A0
 # Let's CODE:
 
 STEP 1: add the library to your Arduino IDE ----> Pulse-Sensor.zip
- # HOW: GO TO SKTECH --> ICLUDE LIBRARY --> Add .zip library
+  HOW: GO TO SKTECH --> ICLUDE LIBRARY --> Add .zip library
 
 
 A brief explanation of the three values you see in the Serial Plotter with the PulseSensorPlayground library:
 
 
 
-# Value 1: Raw Pulse Signal   --->NOISE
+ Value 1: Raw Pulse Signal   --->NOISE
 Description: This is the raw data from the Pulse Sensor.
 
 Purpose: Represents changes in light intensity caused by blood flow, creating a waveform.
 
 
-# Value 2: Threshold  --->The PulseSensor Playground library uses the Threshold to filter out this noise.
+ Value 2: Threshold  --->The PulseSensor Playground library uses the Threshold to filter out this noise.
 Description: A static or nearly static value (e.g., 550) that the library uses to detect heartbeats.
 
 
-# Value 3: Heartbeat Indicator
+ Value 3: Heartbeat Indicator
 Description: A spike (e.g., 1000) that occurs each time a heartbeat is detected.
 
 
