@@ -21,7 +21,7 @@ S--> connect to A0
 ---> GND
 
 
-# Lest CODE:
+# Let's CODE:
 
 STEP 1: add the library to your Arduino IDE ----> Pulse-Sensor.zip
  # HOW: GO TO SKTECH --> ICLUDE LIBRARY --> Add .zip library
