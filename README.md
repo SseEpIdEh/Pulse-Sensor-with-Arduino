@@ -32,17 +32,17 @@ A brief explanation of the three values you see in the Serial Plotter with the P
 
 
 
-# Value 1: Raw Pulse Signal
+# Value 1: Raw Pulse Signal   --->NOISE
 Description: This is the raw data from the Pulse Sensor.
+
 Purpose: Represents changes in light intensity caused by blood flow, creating a waveform.
 
 
-# Value 2: Threshold
+# Value 2: Threshold  --->The PulseSensor Playground library uses the Threshold to filter out this noise.
 Description: A static or nearly static value (e.g., 550) that the library uses to detect heartbeats.
 
 
 # Value 3: Heartbeat Indicator
 Description: A spike (e.g., 1000) that occurs each time a heartbeat is detected.
-Purpose: Visually confirms heartbeat detection.
 
 
