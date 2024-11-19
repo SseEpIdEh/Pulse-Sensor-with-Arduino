@@ -24,11 +24,12 @@ S--> connect to A0
 
 # Let's CODE:
 
-STEP 1: add the library to your Arduino IDE ----> Pulse-Sensor.zip
+
+Add the library to your Arduino IDE ----> Pulse-Sensor.zip
   HOW: GO TO SKTECH --> ICLUDE LIBRARY --> Add .zip library
 
 
-A brief explanation of the three values you see in the Serial Plotter with the PulseSensorPlayground library:
+# A brief explanation of the three values you see in the Serial Plotter with the PulseSensorPlayground library:
 
 
 
